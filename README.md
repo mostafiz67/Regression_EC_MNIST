@@ -20,16 +20,16 @@ Desige and developed a CNN model to solve the MNIST digits classification proble
 
 ## Regression ECs and Goodness of fit for the MNIST Digits using CNN
 
-Model | EC Method: Value | MAE | MAPE | MSqE | R2
+Model | EC Method: Value | MAE (Std) | MAPE (Std) | MSqE (Std) | R2 (Std)
 ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | 
-CNN | Ratio: 0.48 (0.02) <br /> Ratio-diff: 0.40 (0.02) <br /> Ratio-signed: 0.22 (0.06) <br /> Ratio-signed-diff: 0.09 (0.02) | 0.57 (0.06) | 0.19 (0.20) | 0.68 (0.12) | 0.92 (0.01)
+CNN | Ratio: 0.48 (0.01) <br /> Ratio-diff: 0.40 (0.01) <br /> Ratio-sign: 0.21 (0.05) <br /> Ratio-sign-diff: 0.09 (0.02) <br /> Intersection-union-sample: 0.34 (0.03) <br /> Intersection-union-all: 0.40 (0.04) <br /> Intersection-union-distance: 0.49 (0.07) | 0.57 (0.06) | 0.19 (0.20) | 0.68 (0.12) | 0.92 (0.01)
 
 
 ## Model Prediction VS Actual Number
 
 Actual| 7| 2| 1| 0| 4| 1| 4| 9| 5| 9|
 -----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-Prediction| 7.0|  2.1| 1.0| 0.4| 4.5| 0.7| 4.2| 7.5| 6.4| 9.2 
+Prediction| 7.1|  1.8| 1.6| 0.1| 4.4| 0.7| 4.5| 7.3| 4.9| 8.9 
 
 
 
